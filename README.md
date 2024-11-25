@@ -1,4 +1,9 @@
 # 1. Definición del Problema
+<p align="center">
+   <br />
+   <img src="img\hueso-roto.png" width="55%">
+   <br />
+</p>
 
 ## Objetivo Principal
 Desarrollar un modelo de IA que clasifique fracturas óseas en tipos específicos (e.g., fractura cerrada, abierta, desplazada, no desplazada).
