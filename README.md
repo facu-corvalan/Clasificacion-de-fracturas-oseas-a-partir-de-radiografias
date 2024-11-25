@@ -146,7 +146,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 
 ## Autores
 
-La dedicación y el trabajo en equipo de Gendata, estas personas hicieron posible la realización de este proyecto.
+La dedicación y el espíritu colaborativo del equipo fundamentales para hacer realidad este proyecto.
 
 | [<img src="https://avatars.githubusercontent.com/u/166779106?v=4" width=115><br><sub>Adrian Facundo Corvalan</sub>](https://github.com/facu-corvalan) | [<img src="https://avatars.githubusercontent.com/u/123128073?v=4" width=115><br><sub>Javier Yañez</sub>](https://github.com/javyleonhart) | [<img src="https://avatars.githubusercontent.com/u/163685041?v=4" width=115><br><sub>Michael Martinez</sub>](https://github.com/bkmay1417) | [<img src="https://avatars.githubusercontent.com/u/123877201?v=4" width=115><br><sub>Jesus H. Parra B.</sub>](https://github.com/ing-jhparra)
 | :---: | :---: | :---: | :---: |
