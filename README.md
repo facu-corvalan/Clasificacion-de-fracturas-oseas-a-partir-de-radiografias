@@ -14,35 +14,29 @@
 * [Definición del Problema](#Definición-del-Problema)
 * [Recopilación de Datos](#Recopilación-de-Datos)
 * [Selección de la Arquitectura del Modelo](#Selección-de-la-Arquitectura-del-Modelo)
-* [Entrenamiento del Modelo](#Entrenamiento-del-Modelo)
 * [Evaluación y Validación](#Evaluación-y-Validación)
 * [Despliegue](#Despliegue)
-* [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
 * [Tecnologías Utilizadas](#Herramientas-y-Tecnologías-Recomendadas)
 * [Conclusión](#Conclusión)
 * [Recursos](#Recursos)
+* [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
 * [Autores](#Autores)
 
 # Introducción  
 
-La detección y clasificación precisa de fracturas óseas es un desafío crucial en el ámbito de la radiología, ya que un diagnóstico temprano y exacto puede marcar la diferencia en el tratamiento y recuperación de los pacientes. La integración de tecnologías avanzadas, como la inteligencia artificial (IA), representa una oportunidad significativa para mejorar la eficiencia y efectividad en los procesos de diagnóstico médico.
+La detección y clasificación de fracturas óseas es un desafío crucial en el ámbito de la radiología, ya que un diagnóstico temprano y exacto puede marcar la diferencia en el tratamiento y recuperación de los pacientes. La integración de tecnologías avanzadas, como la inteligencia artificial (IA), representa una oportunidad significativa para mejorar la eficiencia y efectividad en los procesos de diagnóstico médico.
 
-A través del análisis automatizado de imágenes médicas, como radiografías, tomografías y resonancias magnéticas, el modelo permitirá identificar rápidamente anomalías, reducir los tiempos de evaluación y priorizar casos críticos para garantizar una atención más inmediata y precisa.
+A través del análisis automatizado de imágenes médicas, como radiografías el modelo permitirá identificar rápidamente anomalías, reducir los tiempos de evaluación y priorizar casos críticos para garantizar una atención más inmediata y precisa.
 
-El sistema se centrará en partes del cuerpo de alta incidencia clínica, como la muñeca, cadera, pierna y columna vertebral, abarcando una amplia variedad de clasificaciones de fracturas según tipologías estándar. Además, estará diseñado para integrarse de manera fluida en los flujos de trabajo radiológicos, ofreciendo informes preliminares, capacitación al personal médico y soporte técnico continuo, todo ello bajo estrictas normativas de protección de datos. Este avance tecnológico promete no solo optimizar el diagnóstico médico, sino también mejorar significativamente la experiencia y los resultados para los pacientes.
+El sistema se centrará inicialmente en el húmero, abordando las fracturas de este hueso según las tipologías estándar de clasificación. En un futuro, si el proyecto demuestra ser efectivo, se considerará la incorporación de otras partes del cuerpo de alta incidencia clínica, como la muñeca, cadera, pierna y columna vertebral. Además, estará diseñado para integrarse de manera fluida en los flujos de trabajo radiológicos, ofreciendo informes preliminares y soporte técnico continuo, todo ello bajo estrictas normativas de protección de datos. Este avance tecnológico promete no solo optimizar el diagnóstico médico, sino también mejorar significativamente la experiencia y los resultados para los pacientes.
 
 # Definición del Problema
 
-## Objetivo Principal
-Desarrollar un modelo de inteligencia artificial capaz de clasificar fracturas óseas en tipos específicos, como fracturas cerradas, abiertas, desplazadas y no desplazadas, para apoyar el diagnóstico médico y mejorar la precisión en la toma de decisiones clínicas
-
-## Uso del Modelo
-Un modelo de inteligencia artificial podría ser utilizado para asistir a los radiólogos en el diagnóstico médico, analizando imágenes como radiografías, tomografías o resonancias magnéticas para identificar rápidamente anomalías o patrones asociados a enfermedades. Este modelo ayudaría a mejorar los tiempos de evaluación al preclasificar casos según su nivel de urgencia, permitiendo que los radiólogos prioricen casos críticos para una atención más inmediata, mientras mantienen el enfoque en los detalles clínicos relevantes para cada paciente.
+## Nuestro objetivo principal (temp)
+Desarrollar un modelo de inteligencia artificial capaz de clasificar fracturas óseas en tipos específicos, como fracturas cerradas, abiertas, desplazadas y no desplazadas, para apoyar el diagnóstico médico y mejorar la precisión en la toma de decisiones clínicas 
 
 ## Alcance
-El sistema de diagnóstico asistido se enfocará en el análisis automatizado de imágenes médicas relacionadas con fracturas óseas. Inicialmente, se priorizarán las evaluaciones de partes del cuerpo clave, como la muñeca, cadera, pierna y columna vertebral, debido a su alta incidencia en accidentes y su importancia clínica. El modelo estará diseñado para identificar y clasificar fracturas según tipologías estándar, incluyendo fracturas simples, compuestas, desplazadas, no desplazadas y fracturas en tallo verde, entre otras.
-
-Además, el sistema proporcionará informes preliminares que detallarán el tipo y ubicación de las fracturas, permitiendo que los radiólogos validen los hallazgos y tomen decisiones informadas. Esta herramienta estará integrada en los flujos de trabajo radiológicos, con capacitación al personal médico, cumplimiento de normativas de protección de datos y soporte técnico continuo para garantizar su correcta operación.
+(En proceso de cambios)
 
 ## Restricciones
 - Privacidad
@@ -70,7 +64,7 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 - Normalización de valores de píxeles.
 - Redimensionamiento a un tamaño uniforme (e.g., 224x224 píxeles).
 
-## Data Augmentation
+## Aumento de datos
 - Rotación, escalado, inversión horizontal, zoom aleatorio.
 - Simula variedad y aumenta robustez.
 
@@ -86,23 +80,6 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
   - ResNet
 - **Customización:** Ajustar capas finales para adaptarlas al problema específico de clasificación.
 
-# Entrenamiento del Modelo
-
-## Hiperparámetros
-- Learning rate
-- Batch size
-- Optimizador (Adam, SGD)
-
-## Pérdida (Loss Function)
-- Cross-entropy (si es clasificación multicategoría).
-
-## Aceleración
-- Entrenamiento en GPU (e.g., NVIDIA).
-
-## Validación
-- Monitorear métricas como accuracy, F1-score, AUC-ROC.
-
-
 # Evaluación y Validación
 
 ## Métricas de Desempeño
@@ -110,12 +87,6 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 - Precision
 - Recall
 - F1-score
-
-## Confusion Matrix
-- Ayuda a identificar categorías mal clasificadas.
-
-## Visualización
-- Grad-CAM para identificar las áreas donde el modelo presta atención.
 
 ## Prueba en Datos Reales
 - Evaluar en un entorno clínico o con nuevos conjuntos de datos.
@@ -131,13 +102,6 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 ## Mantenimiento
 - Actualización del modelo con nuevos datos.
 - Monitoreo de desempeño para identificar sesgos o errores.
-
-# Cumplimiento Ético y Regulatorio
-
-- Garantizar que los datos están anonimizados.
-- Adherirse a normativas locales e internacionales.
-- Implementar explicabilidad en el modelo (e.g., por qué clasifica como fractura).
-
 
 # Tecnologías Utilizadas
 
@@ -158,9 +122,15 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 
 # Recursos
 
+# Cumplimiento Ético y Regulatorio
+
+- Garantizar que los datos están anonimizados.
+- Adherirse a normativas locales e internacionales.
+- Implementar explicabilidad en el modelo (e.g., por qué clasifica como fractura).
+
 # Autores
 
 La dedicación y el espíritu colaborativo del equipo fundamentales para hacer realidad este proyecto.
 
-| [<img src="https://avatars.githubusercontent.com/u/166779106?v=4" width=115><br><sub>Adrian Facundo Corvalan</sub>](https://github.com/facu-corvalan) | [<img src="https://avatars.githubusercontent.com/u/123128073?v=4" width=115><br><sub>Javier Yañez</sub>](https://github.com/javyleonhart) | [<img src="https://avatars.githubusercontent.com/u/163685041?v=4" width=115><br><sub>Michael Martinez</sub>](https://github.com/bkmay1417) | [<img src="https://avatars.githubusercontent.com/u/123877201?v=4" width=115><br><sub>Jesus H. Parra B.</sub>](https://github.com/ing-jhparra)
+| [<img src="https://avatars.githubusercontent.com/u/166779106?v=4" width=115><br><sub>Facundo Corvalan</sub>](https://github.com/facu-corvalan) | [<img src="https://avatars.githubusercontent.com/u/123128073?v=4" width=115><br><sub>Javier Yañez</sub>](https://github.com/javyleonhart) | [<img src="https://avatars.githubusercontent.com/u/163685041?v=4" width=115><br><sub>Michael Martinez</sub>](https://github.com/bkmay1417) | [<img src="https://avatars.githubusercontent.com/u/123877201?v=4" width=115><br><sub>Jesus H. Parra B.</sub>](https://github.com/ing-jhparra)
 | :---: | :---: | :---: | :---: |
