@@ -1,12 +1,14 @@
 #  Clasificación de fracturas óseas a partir de radiografías
-
 <p align="center">
    <br />
    <img src="img\hueso-roto.png" width="55%">
    <br />
 </p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Estado-En%20desarrollo-yellow" alt="Proyecto en desarrollo">
+</div>
 
-# Contenido
+# Tabla de Contenido
 
 * [Introducción](#Introducción)
 * [Definición del Problema](#Definición-del-Problema)
@@ -167,6 +169,8 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - Amazon SageMaker
 
 # Conclusión
+
+# Recursos
 
 # Autores
 
