@@ -18,7 +18,7 @@
 * [Evaluación y Validación](#Evaluación-y-Validación)
 * [Despliegue](#Despliegue)
 * [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
-* [Herramientas y Tecnologías Recomendadas](#Herramientas-y-Tecnologías-Recomendadas)
+* [Tecnologías Utilizadas](#Herramientas-y-Tecnologías-Recomendadas)
 * [Conclusión](#Conclusión)
 * [Recursos](#Recursos)
 * [Autores](#Autores)
@@ -63,9 +63,6 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 - Por radiólogos o expertos médicos para garantizar la precisión.
 - Herramientas de etiquetado para imágenes médicas (e.g., LabelImg, RadiAnt DICOM Viewer).
 
-## Tamaño del Dataset
-Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasificación robusta.
-
 # Preparación de los Datos
 
 ## Preprocesamiento de Imágenes
@@ -87,9 +84,6 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - **Redes Neuronales Convolucionales (CNN):** Ideales para el análisis de imágenes médicas.
 - **Modelos Preentrenados (Transfer Learning):**
   - ResNet
-  - EfficientNet
-  - InceptionV3
-  - DenseNet
 - **Customización:** Ajustar capas finales para adaptarlas al problema específico de clasificación.
 
 # Entrenamiento del Modelo
@@ -129,14 +123,10 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 # Despliegue
 
 ## Integración
-- Implementar como una API REST o herramienta standalone.
 - Usar frameworks como TensorFlow Serving o FastAPI.
 
 ## Interfaz para Usuarios
 - Interfaz gráfica simple para que médicos carguen radiografías y obtengan resultados.
-
-## Infraestructura
-- Hospedaje en la nube (GCP, AWS, Azure).
 
 ## Mantenimiento
 - Actualización del modelo con nuevos datos.
@@ -149,7 +139,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - Implementar explicabilidad en el modelo (e.g., por qué clasifica como fractura).
 
 
-# Herramientas y Tecnologías Recomendadas
+# Tecnologías Utilizadas
 
 ## Bibliotecas y Frameworks
 - TensorFlow
@@ -163,10 +153,6 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 ## Visualización
 - Matplotlib
 - Seaborn
-
-## Infraestructura en la Nube
-- Google Cloud AI
-- Amazon SageMaker
 
 # Conclusión
 
