@@ -9,10 +9,27 @@
 # Contenido
 
 * [Introducción](#Introducción)
+* [Definición del Problema](#Definición-del-Problema)
+* [Recopilación de Datos](#Recopilación-de-Datos)
+* [Selección de la Arquitectura del Modelo](#Selección-de-la-Arquitectura-del-Modelo)
+* [Entrenamiento del Modelo](#Entrenamiento-del-Modelo)
+* [Evaluación y Validación](#Evaluación-y-Validación)
+* [Despliegue](#Despliegue)
+* [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
+* [Herramientas y Tecnologías Recomendadas](#Herramientas-y-Tecnologías-Recomendadas)
+* [Conclusión](#Conclusión)
 * [Recursos](#Recursos)
 * [Autores](#Autores)
 
-# 1. Definición del Problema
+# Introducción  
+
+La detección y clasificación precisa de fracturas óseas es un desafío crucial en el ámbito de la radiología, ya que un diagnóstico temprano y exacto puede marcar la diferencia en el tratamiento y recuperación de los pacientes. La integración de tecnologías avanzadas, como la inteligencia artificial (IA), representa una oportunidad significativa para mejorar la eficiencia y efectividad en los procesos de diagnóstico médico.  
+
+Este proyecto tiene como objetivo principal desarrollar un modelo de IA capaz de clasificar fracturas óseas en tipos específicos, como cerradas, abiertas, desplazadas y no desplazadas, proporcionando un soporte valioso para los radiólogos en su toma de decisiones clínicas. A través del análisis automatizado de imágenes médicas, como radiografías, tomografías y resonancias magnéticas, el modelo permitirá identificar rápidamente anomalías, reducir los tiempos de evaluación y priorizar casos críticos para garantizar una atención más inmediata y precisa.  
+
+El sistema se centrará en partes del cuerpo de alta incidencia clínica, como la muñeca, cadera, pierna y columna vertebral, abarcando una amplia variedad de clasificaciones de fracturas según tipologías estándar. Además, estará diseñado para integrarse de manera fluida en los flujos de trabajo radiológicos, ofreciendo informes preliminares, capacitación al personal médico y soporte técnico continuo, todo ello bajo estrictas normativas de protección de datos. Este avance tecnológico promete no solo optimizar el diagnóstico médico, sino también mejorar significativamente la experiencia y los resultados para los pacientes.  
+
+# Definición del Problema
 
 ## Objetivo Principal
 Desarrollar un modelo de inteligencia artificial capaz de clasificar fracturas óseas en tipos específicos, como fracturas cerradas, abiertas, desplazadas y no desplazadas, para apoyar el diagnóstico médico y mejorar la precisión en la toma de decisiones clínicas
@@ -30,7 +47,7 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 - Disponibilidad de datos médicos
 - Regulación (e.g., HIPAA o GDPR)
 
-# 2. Recopilación de Datos
+# Recopilación de Datos
 
 ## Fuentes de Datos
 - Bases de datos públicas como:
@@ -47,7 +64,7 @@ Además, el sistema proporcionará informes preliminares que detallarán el tipo
 ## Tamaño del Dataset
 Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasificación robusta.
 
-# 3. Preparación de los Datos
+# Preparación de los Datos
 
 ## Preprocesamiento de Imágenes
 - Conversión a escala de grises (si las imágenes no lo están).
@@ -63,7 +80,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - Validación (20%)
 - Prueba (10%)
 
-# 4. Selección de la Arquitectura del Modelo
+# Selección de la Arquitectura del Modelo
 
 - **Redes Neuronales Convolucionales (CNN):** Ideales para el análisis de imágenes médicas.
 - **Modelos Preentrenados (Transfer Learning):**
@@ -73,7 +90,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
   - DenseNet
 - **Customización:** Ajustar capas finales para adaptarlas al problema específico de clasificación.
 
-# 5. Entrenamiento del Modelo
+# Entrenamiento del Modelo
 
 ## Hiperparámetros
 - Learning rate
@@ -90,7 +107,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - Monitorear métricas como accuracy, F1-score, AUC-ROC.
 
 
-# 6. Evaluación y Validación
+# Evaluación y Validación
 
 ## Métricas de Desempeño
 - Accuracy
@@ -107,7 +124,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 ## Prueba en Datos Reales
 - Evaluar en un entorno clínico o con nuevos conjuntos de datos.
 
-# 7. Despliegue
+# Despliegue
 
 ## Integración
 - Implementar como una API REST o herramienta standalone.
@@ -123,7 +140,7 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - Actualización del modelo con nuevos datos.
 - Monitoreo de desempeño para identificar sesgos o errores.
 
-# 8. Cumplimiento Ético y Regulatorio
+# Cumplimiento Ético y Regulatorio
 
 - Garantizar que los datos están anonimizados.
 - Adherirse a normativas locales e internacionales.
@@ -149,7 +166,9 @@ Se recomienda un mínimo de 10,000 radiografías bien etiquetadas para una clasi
 - Google Cloud AI
 - Amazon SageMaker
 
-## Autores
+# Conclusión
+
+# Autores
 
 La dedicación y el espíritu colaborativo del equipo fundamentales para hacer realidad este proyecto.
 
