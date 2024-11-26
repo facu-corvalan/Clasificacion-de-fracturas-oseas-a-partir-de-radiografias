@@ -1,7 +1,7 @@
 #  Clasificación de fracturas óseas a partir de radiografías
 <p align="center">
    <br />
-   <img src="img\hueso-roto.png" width="55%">
+   <img src="img\hueso-roto.jpg" width="55%">
    <br />
 </p>
 <div align="center">
