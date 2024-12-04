@@ -6,6 +6,6 @@ Las redes neuronales convolucionales (CNN, siglas en inglés) es un tipo de red 
 
 <p align="center">
    <br />
-   <img src="img\redes-neuronales.png" width="55%">
+   <img src="..\img\redes-neuronales.jpg" width="55%">
    <br />
 </p>
