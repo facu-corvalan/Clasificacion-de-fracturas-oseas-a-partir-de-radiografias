@@ -9,7 +9,7 @@ Antes de entrenarlo para nuestro fines, primero hace falta preparar los datos co
 
 2. Una vez listo LabelImg, se abre y se elige el directorio de las imagenes, donde etiquetamos manualmente una por una, identificando aquello que queremos que detecte, en este caso fracturas
 
-img1
+![](img\img1.png)
 
 **Aclaracion** El formato utilizado en esta tarea fue Pascal/VOC
 
