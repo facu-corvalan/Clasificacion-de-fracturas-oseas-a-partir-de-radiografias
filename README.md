@@ -10,7 +10,6 @@
 
 # Tabla de Contenido
 
-* [Introducción](#Introducción)
 * [Contextualización](#Contextualización)
 * [Enfoque en Estudiantes y Formación](#Enfoque-en-Estudiantes-y-Formación)
 * [Futuras Funcionalidades y Escalabilidad](#Futuras-Funcionalidades-y-Escalabilidad)
@@ -89,20 +88,19 @@ Para este proyecto usaremos datos de:
 
 ## Herramientas para el etiquetado de datos
 
-<img src="https://cdn-icons-png.flaticon.com/512/8552/8552125.png" width="20px" height="20px"> **LabelImg**: Para videoconferencias y reuniones virtuales.
+<img src="https://cdn-icons-png.flaticon.com/512/8552/8552125.png" width="20px" height="20px"> **LabelImg**: Herramienta de código abierto para el etiquetado de imágenes.
 
 ## Librerias para la creaciond el modelo
 
-<img src="https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png" width="20px" > **TensorFlow**: 
+<img src="https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png" width="20px" > **TensorFlow**: Biblioteca de Google para construir y entrenar modelos de machine learning.
 
-<img src="https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png" width="20px" height="20px"> **PyTorch**: Para videoconferencias y reuniones virtuales.
+<img src="https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png" width="20px" height="20px"> **PyTorch**: Plataforma de aprendizaje profundo que destaca por su enfoque dinámico y facilidad para depuración, ideal tanto para investigación como producción.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width="20px" height="20px"> **Keras**: Para videoconferencias y reuniones virtuales.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width="20px" height="20px"> **Keras**: Simplifica la construcción y el entrenamiento de redes neuronales al proporcionar una API fácil de usar.
 
 ## Herramientas para la Visualización de Datos
 
 <img src="img\streamlit-removebg-preview.png" width="30px"> **Streamlit**: Para la creación de aplicaciones web interactivas y visualización de datos en tiempo real.
-
 
 # Cumplimiento Ético y Regulatorio
 
