@@ -10,117 +10,97 @@
 
 # Tabla de Contenido
 
-* [Introducción](#Introducción)
-* [Definición del Problema](#Definición-del-Problema)
-* [Recopilación de Datos](#Recopilación-de-Datos)
-* [Selección de la Arquitectura del Modelo](#Selección-de-la-Arquitectura-del-Modelo)
-* [Evaluación y Validación](#Evaluación-y-Validación)
-* [Despliegue](#Despliegue)
-* [Tecnologías Utilizadas](#Herramientas-y-Tecnologías-Recomendadas)
-* [Conclusión](#Conclusión)
-* [Recursos](#Recursos)
+* [Contextualización](#Contextualización)
+* [Enfoque en Estudiantes y Formación](#Enfoque-en-Estudiantes-y-Formación)
+* [Futuras Funcionalidades y Escalabilidad](#Futuras-Funcionalidades-y-Escalabilidad)
+* [Beneficios](#Beneficios)
+* [La Importancia de la Inteligencia Artificial en el Ámbito Médico](#La-Importancia-de-la-Inteligencia-Artificial-en-el-Ámbito-Médico)
+* [Nuestra plataforma y productos](#Nuestra-plataforma-y-productos)
+* [Conjunto de Datos](#Conjunto-de-Datos)
+* [Preprocesamiento de Imágenes](#Preprocesamiento-de-Imágenes)
+* [División del Dataset](#División-del-Dataset)
+* [Herramientas para el etiquetado de datos](#Herramientas-para-el-etiquetado-de-datos)
+* [Librerías para la creación del modelo](#Librerías-para-la-creación-del-modelo)
+* [Herramientas para la Visualización de Datos](#Herramientas-para-la-Visualización-de-Datos)
 * [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
 * [Autores](#Autores)
 
-# Introducción  
+# Contextualización
 
-La detección y clasificación de fracturas óseas es un desafío crucial en el ámbito de la radiología, ya que un diagnóstico temprano y exacto puede marcar la diferencia en el tratamiento y recuperación de los pacientes. La integración de tecnologías avanzadas, como la inteligencia artificial (IA), representa una oportunidad significativa para mejorar la eficiencia y efectividad en los procesos de diagnóstico médico.
+La detección y clasificación de fracturas óseas es un desafío significativo tanto en la formación académica como en la práctica médica, ya que un diagnóstico temprano y preciso es crucial para el tratamiento efectivo y la recuperación de los pacientes. En este contexto, la integración de tecnologías avanzadas como la inteligencia artificial (IA) y el aprendizaje profundo ofrece una herramienta poderosa para apoyar no solo a los profesionales de la salud, sino también a estudiantes que buscan fortalecer sus habilidades en interpretación radiológica.
 
-A través del análisis automatizado de imágenes médicas, como radiografías el modelo permitirá identificar rápidamente anomalías, reducir los tiempos de evaluación y priorizar casos críticos para garantizar una atención más inmediata y precisa.
+Nuestro Producto Mínimo Viable (MVP) se desarrolla con un enfoque educativo y práctico, centrándose en esta primera etapa exclusivamente en la detección de fracturas. Este sistema es capaz de localizar de manera eficiente áreas sospechosas en radiografías que podrían corresponder a fracturas, sirviendo como un recurso innovador tanto para la formación académica como para la validación en entornos médicos. Al facilitar el aprendizaje práctico y optimizar el análisis radiológico, el sistema contribuye al desarrollo de habilidades clínicas
 
-El sistema se centrará inicialmente en el húmero, abordando las fracturas de este hueso según las tipologías estándar de clasificación. En un futuro, si el proyecto demuestra ser efectivo, se considerará la incorporación de otras partes del cuerpo de alta incidencia clínica, como la muñeca, cadera, pierna y columna vertebral. Además, estará diseñado para integrarse de manera fluida en los flujos de trabajo radiológicos, ofreciendo informes preliminares y soporte técnico continuo, todo ello bajo estrictas normativas de protección de datos. Este avance tecnológico promete no solo optimizar el diagnóstico médico, sino también mejorar significativamente la experiencia y los resultados para los pacientes.
+# Enfoque en Estudiantes y Formación
 
-# Definición del Problema
+Este MVP está orientado principalmente hacia estudiantes de medicina, radiología y áreas relacionadas. Al proporcionarles acceso a un sistema automatizado, los estudiantes podrán:
 
-## Nuestro objetivo principal (temp)
-Desarrollar un modelo de inteligencia artificial capaz de clasificar fracturas óseas en tipos específicos, como fracturas cerradas, abiertas, desplazadas y no desplazadas, para apoyar el diagnóstico médico y mejorar la precisión en la toma de decisiones clínicas 
+Practicar y reforzar sus habilidades: Identificando fracturas en radiografías con la ayuda de un modelo inteligente.
+Obtener retroalimentación objetiva: Comparando sus interpretaciones con los resultados del sistema para mejorar su precisión.
+Familiarizarse con tecnologías avanzadas: Integrando IA y aprendizaje profundo en su formación desde etapas tempranas.
+Además, el sistema también servirá como una herramienta pedagógica para docentes, facilitando la enseñanza de la interpretación radiológica mediante el uso de ejemplos interactivos y casos prácticos guiados.
 
-## Alcance
-(En proceso de cambios)
+# Futuras Funcionalidades y Escalabilidad
 
-## Restricciones
-- Privacidad
-- Disponibilidad de datos médicos
-- Regulación (e.g., HIPAA o GDPR)
+Si bien el MVP se limita inicialmente a la detección, las futuras actualizaciones incluirán un etiquetado detallado de las imágenes, desarrollado en colaboración con médicos y expertos para garantizar su precisión y utilidad clínica. A medida que el sistema evolucione, se incorporarán funciones avanzadas, como la clasificación de fracturas según tipologías específicas y el análisis de regiones anatómicas adicionales, ampliando así su utilidad tanto en entornos educativos como médicos.
 
-# Recopilación de Datos
+# Beneficios 
+* Accesibilidad educativa: Una herramienta innovadora para estudiantes y docentes que refuerza el aprendizaje práctico.
+* Facilitación del aprendizaje: Proporciona un entorno seguro para la práctica y la experimentación con imágenes médicas reales o simuladas.
+* Base para investigación y desarrollo: Posibilita la validación del modelo en entornos educativos, sentando las bases para su implementación clínica en el futuro.
 
-## Fuentes de Datos
-- Bases de datos públicas como:
+# La Importancia de la Inteligencia Artificial en el Ámbito Médico
+
+La Inteligencia Artificial está transformando la medicina al mejorar el diagnóstico, tratamiento y gestión de enfermedades. Algunos de sus principales beneficios son:
+
+1. **Diagnóstico más preciso**: Analizar grandes cantidades de datos médicos, detectando patrones difíciles de identificar para los médicos, lo que permite diagnósticos más tempranos y precisos.
+
+2. **Optimización de la atención al paciente**: Mejora la gestión hospitalaria, optimizando recursos y procesos, y agiliza la atención al paciente.
+
+3. **Investigación acelerada**: Acelera el descubrimiento de nuevos tratamientos y medicamentos mediante el análisis de grandes volúmenes de datos clínicos.
+
+4. **Telemedicina**: Facilita consultas a distancia de calidad, mejorando el acceso a la atención médica en áreas remotas.
+
+
+## Nuestra plataforma y productos 
+
+Contamos con nuestra web donde podrás encontrar los productos desarrollados durante este proyecto.
+En ella puedes encontrar:
+
+* **Home**: Presentación del proyecto.
+* **Sobre nosotros**: Información sobre nuestra empresa, quiénes somos y qué hacemos.
+* **Productos**: En esta sección encontrarás los productos que desarrollamos para este proyecto y la descripción de cada uno de ellos.
+* **Equipo**: En este apartado conocerás al increíble equipo que desarrolló este proyecto y su información de contacto.
+
+
+# Conjunto de Datos
+Para este proyecto usaremos datos de:
   - MURA
-  - NIH Chest X-rays
-  - Kaggle
-- Colaboraciones con hospitales o centros médicos.
-- Generación propia mediante convenios.
-
-## Etiquetado de Datos
-- Por radiólogos o expertos médicos para garantizar la precisión.
-- Herramientas de etiquetado para imágenes médicas (e.g., LabelImg, RadiAnt DICOM Viewer).
-
-# Preparación de los Datos
 
 ## Preprocesamiento de Imágenes
 - Conversión a escala de grises (si las imágenes no lo están).
 - Normalización de valores de píxeles.
-- Redimensionamiento a un tamaño uniforme (e.g., 224x224 píxeles).
-
-## Aumento de datos
-- Rotación, escalado, inversión horizontal, zoom aleatorio.
-- Simula variedad y aumenta robustez.
+- Redimensionamiento a un tamaño uniforme.
 
 ## División del Dataset
-- Entrenamiento (70%)
-- Validación (20%)
-- Prueba (10%)
+- Entrenamiento (80%)
+- Prueba (20%)
 
-# Selección de la Arquitectura del Modelo
+## Herramientas para el etiquetado de datos
 
-- **Redes Neuronales Convolucionales (CNN):** Ideales para el análisis de imágenes médicas.
-- **Modelos Preentrenados (Transfer Learning):**
-  - ResNet
-- **Customización:** Ajustar capas finales para adaptarlas al problema específico de clasificación.
+<img src="https://cdn-icons-png.flaticon.com/512/8552/8552125.png" width="20px" height="20px"> **LabelImg**: Herramienta de código abierto para el etiquetado de imágenes.
 
-# Evaluación y Validación
+## Librerias para la creaciond el modelo
 
-## Métricas de Desempeño
-- Accuracy
-- Precision
-- Recall
-- F1-score
+<img src="https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png" width="20px" > **TensorFlow**: Biblioteca de Google para construir y entrenar modelos de machine learning.
 
-## Prueba en Datos Reales
-- Evaluar en un entorno clínico o con nuevos conjuntos de datos.
+<img src="https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png" width="20px" height="20px"> **PyTorch**: Plataforma de aprendizaje profundo que destaca por su enfoque dinámico y facilidad para depuración, ideal tanto para investigación como producción.
 
-# Despliegue
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width="20px" height="20px"> **Keras**: Simplifica la construcción y el entrenamiento de redes neuronales al proporcionar una API fácil de usar.
 
-## Integración
-- Usar frameworks como TensorFlow Serving o FastAPI.
+## Herramientas para la Visualización de Datos
 
-## Interfaz para Usuarios
-- Interfaz gráfica simple para que médicos carguen radiografías y obtengan resultados.
-
-## Mantenimiento
-- Actualización del modelo con nuevos datos.
-- Monitoreo de desempeño para identificar sesgos o errores.
-
-# Tecnologías Utilizadas
-
-## Bibliotecas y Frameworks
-- TensorFlow
-- PyTorch
-- Keras
-
-## Plataformas de Etiquetado
-- LabelImg
-- CVAT
-
-## Visualización
-- Matplotlib
-- Seaborn
-
-# Conclusión
-
-# Recursos
+<img src="img\streamlit-removebg-preview.png" width="30px"> **Streamlit**: Para la creación de aplicaciones web interactivas y visualización de datos en tiempo real.
 
 # Cumplimiento Ético y Regulatorio
 
