@@ -29,16 +29,16 @@
 
 La detección y clasificación de fracturas óseas es un desafío significativo tanto en la formación académica como en la práctica médica, ya que un diagnóstico temprano y preciso es crucial para el tratamiento efectivo y la recuperación de los pacientes. En este contexto, la integración de tecnologías avanzadas como la inteligencia artificial (IA) y el aprendizaje profundo ofrece una herramienta poderosa para apoyar no solo a los profesionales de la salud, sino también a estudiantes que buscan fortalecer sus habilidades en interpretación radiológica.
 
-Nuestro Producto Mínimo Viable (MVP) se desarrolla con un enfoque educativo y práctico, centrándose en esta primera etapa exclusivamente en la detección de fracturas. Este sistema es capaz de localizar de manera eficiente áreas sospechosas en radiografías que podrían corresponder a fracturas, sirviendo como un recurso innovador tanto para la formación académica como para la validación en entornos médicos. Al facilitar el aprendizaje práctico y optimizar el análisis radiológico, el sistema contribuye al desarrollo de habilidades clínicas
+Nuestro MVP (Producto Mínimo Viable) se desarrolla con un enfoque educativo y práctico, centrándose en esta primera etapa exclusivamente en la detección de fracturas. Este sistema es capaz de detectar de manera eficiente áreas sospechosas en radiografías que podrían corresponder a fracturas, apoyando como un recurso innovador tanto para la formación académica como para la validación en entornos médicos. Al facilitar el aprendizaje práctico y optimizar el análisis radiológico, el sistema contribuye al desarrollo de habilidades clínicas
 
 # Enfoque en Estudiantes y Formación
 
-Este MVP está orientado principalmente hacia estudiantes de medicina, radiología y áreas relacionadas. Al proporcionarles acceso a un sistema automatizado, los estudiantes podrán:
+Este MVP está diseñado principalmente hacia estudiantes de medicina, radiología y áreas relacionadas. Al proporcionarles acceso a un sistema automatizado, los estudiantes podrán:
 
 Practicar y reforzar sus habilidades: Identificando fracturas en radiografías con la ayuda de un modelo inteligente.
 Obtener retroalimentación objetiva: Comparando sus interpretaciones con los resultados del sistema para mejorar su precisión.
 Familiarizarse con tecnologías avanzadas: Integrando IA y aprendizaje profundo en su formación desde etapas tempranas.
-Además, el sistema también servirá como una herramienta pedagógica para docentes, facilitando la enseñanza de la interpretación radiológica mediante el uso de ejemplos interactivos y casos prácticos guiados.
+Además, el sistema apoyará como un recurso educativo a docentes, facilitando la enseñanza de la interpretación radiológica mediante el uso de ejemplos interactivos y casos prácticos guiados.
 
 # Futuras Funcionalidades y Escalabilidad
 
@@ -74,8 +74,8 @@ En ella puedes encontrar:
 
 
 # Conjunto de Datos
-Para este proyecto usaremos datos de:
-  - MURA
+Para este proyecto utilizamos como fuente de datos:
+  - MURA, para su descarga haga clic [aquí](https://stanfordmlgroup.github.io/competitions/mura/)
 
 ## Preprocesamiento de Imágenes
 - Conversión a escala de grises (si las imágenes no lo están).
@@ -90,13 +90,13 @@ Para este proyecto usaremos datos de:
 
 <img src="https://cdn-icons-png.flaticon.com/512/8552/8552125.png" width="20px" height="20px"> **LabelImg**: Herramienta de código abierto para el etiquetado de imágenes.
 
-## Librerias para la creaciond el modelo
+## Libreria y framework de aprendizaje profundo 
 
 <img src="https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png" width="20px" > **TensorFlow**: Biblioteca de Google para construir y entrenar modelos de machine learning.
 
-<img src="https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png" width="20px" height="20px"> **PyTorch**: Plataforma de aprendizaje profundo que destaca por su enfoque dinámico y facilidad para depuración, ideal tanto para investigación como producción.
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width="20px" height="20px"> **Keras**: Simplifica la construcción y el entrenamiento de redes neuronales al proporcionar una API fácil de usar.
+
+<img src="https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png" width="20px" height="20px"> **PyTorch**: Plataforma de aprendizaje profundo que destaca por su enfoque dinámico y facilidad para depuración, ideal tanto para investigación como producción.
 
 ## Herramientas para la Visualización de Datos
 
