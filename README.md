@@ -23,6 +23,7 @@
 * [Librerías para la creación del modelo](#Librerías-para-la-creación-del-modelo)
 * [Herramientas para la Visualización de Datos](#Herramientas-para-la-Visualización-de-Datos)
 * [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
+* [Video](#video)
 * [Autores](#Autores)
 
 # Contextualización
@@ -72,38 +73,26 @@ La Inteligencia Artificial está transformando la medicina al mejorar el diagnó
 
 ## Nuestra plataforma y productos 
 
-Contamos con nuestra web donde podrás encontrar los productos desarrollados durante este proyecto.
+Contamos con nuestra web donde podrás encontrar el producto desarrollado durante este proyecto.
 En ella puedes encontrar:
 
-* **Home**: Presentación del proyecto.
-* **Sobre nosotros**: Información sobre nuestra empresa, quiénes somos y qué hacemos.
-* **Productos**: En esta sección encontrarás los productos que desarrollamos para este proyecto y la descripción de cada uno de ellos.
-* **Equipo**: En este apartado conocerás al increíble equipo que desarrolló este proyecto y su información de contacto.
+* **Inicio**: Presentación del proyecto.
+* **Modelo**: En esta sección podras probar el modelo y ver las respuestas del mismo.
+* **Contacto**: En este apartado tendras un formulario para contactar al equipo de trabajo.
 
-Utilice los siguientes enlaces para acceder al video del proyecto y la Aplicación
+Para su prueba haga click en la siguiente imagen o [aquí](https://clasificacion-de-fracturas-oseas-a-partir-de-radiografias.streamlit.app/Modelo)
 
 <div style="display: flex; justify-content: start;">
     <div style="margin: 5px; text-align: center;">
-        <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
-            <img src="img\video_youtube.png" alt="Video" style="width: 35%;">
-        </a>
-        <div style="text-align: center;">
-          <p>Video</p>
-        </div>
-    </div>
-    <div style="margin: 5px; text-align: center;">
         <a href="https://clasificacion-de-fracturas-oseas-a-partir-de-radiografias.streamlit.app/Modelo">
-            <img src="img\herramienta.png" alt="Herramienta (El modelo de IA)" style="width: 35%;">
+          <img src="img/Modelo.jpg" alt="Herramienta (El modelo de IA)" style="width: 40%;">
         </a>
-        <div style="text-align: center;">
-          <p>Aplicación</p>
-        </div>
     </div>
 </div>
 
 # Conjunto de Datos
 Para este proyecto utilizamos como fuente de datos:
-  - MURA, para su descarga haga clic [aquí](https://stanfordmlgroup.github.io/competitions/mura/)
+  - MURA, para su descarga haga click [aquí](https://stanfordmlgroup.github.io/competitions/mura/)
 
 ## Preprocesamiento de Imágenes
 - Conversión a escala de grises (si las imágenes no lo están).
@@ -135,6 +124,19 @@ Para este proyecto utilizamos como fuente de datos:
 - Garantizar que los datos están anonimizados.
 - Adherirse a normativas locales e internacionales.
 - Implementar explicabilidad en el modelo (e.g., por qué clasifica como fractura).
+
+
+# Video
+
+En este apartado podras ver nuestro video de presentación:
+
+<div style="display: flex; justify-content: start;">
+    <div style="margin: 5px; text-align: center;">
+        <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
+            <img src="img\video.jpg" alt="Video" style="width: 40%;">
+        </a>
+    </div>
+</div>
 
 # Autores
 
