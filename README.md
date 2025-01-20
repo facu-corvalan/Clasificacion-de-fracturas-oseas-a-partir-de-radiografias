@@ -80,7 +80,7 @@ En ella puedes encontrar:
 * **Productos**: En esta sección encontrarás los productos que desarrollamos para este proyecto y la descripción de cada uno de ellos.
 * **Equipo**: En este apartado conocerás al increíble equipo que desarrolló este proyecto y su información de contacto.
 
-Utilices los siguientes enlaces para acceder al video del proyecto y la Aplicación
+Utilice los siguientes enlaces para acceder al video del proyecto y la Aplicación
 
 <div style="display: flex; justify-content: start;">
     <div style="margin: 5px; text-align: center;">
