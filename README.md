@@ -23,6 +23,7 @@
 * [Librerías para la creación del modelo](#Librerías-para-la-creación-del-modelo)
 * [Herramientas para la Visualización de Datos](#Herramientas-para-la-Visualización-de-Datos)
 * [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
+* [Video del proyecto](https://youtu.be/XzLwn3GHHxg?si=99AtVdyl6WC90kc8)
 * [Autores](#Autores)
 
 # Contextualización
