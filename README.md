@@ -23,7 +23,6 @@
 * [Librerías para la creación del modelo](#Librerías-para-la-creación-del-modelo)
 * [Herramientas para la Visualización de Datos](#Herramientas-para-la-Visualización-de-Datos)
 * [Cumplimiento Ético y Regulatorio](#Cumplimiento-Ético-y-Regulatorio)
-* [Video del proyecto](https://www.youtube.com/watch?v=XzLwn3GHHxg)
 * [Autores](#Autores)
 
 # Contextualización
@@ -81,6 +80,26 @@ En ella puedes encontrar:
 * **Productos**: En esta sección encontrarás los productos que desarrollamos para este proyecto y la descripción de cada uno de ellos.
 * **Equipo**: En este apartado conocerás al increíble equipo que desarrolló este proyecto y su información de contacto.
 
+Utilices los siguientes enlaces para acceder al video explicativo de nuestro proyecto
+
+<div style="display: flex; justify-content: start;">
+    <div style="width: 40%; margin: 5px; text-align: center;">
+        <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
+            <img src="img\video_youtube.png" alt="Video" style="width: 50%;">
+        </a>
+        <div style="text-align: center;">
+          <p>Video</p>
+        </div>
+    </div>
+    <div style="width: 40%; margin: 5px; text-align: center;">
+        <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
+            <img src="img\herramienta.png" alt="Herramienta (El modelo de IA)" style="width: 50%;">
+        </a>
+        <div style="text-align: center;">
+          <p>Aplicación</p>
+        </div>
+    </div>
+</div>
 
 # Conjunto de Datos
 Para este proyecto utilizamos como fuente de datos:
@@ -110,8 +129,6 @@ Para este proyecto utilizamos como fuente de datos:
 ## Herramientas para la Visualización de Datos
 
 <img src="img\streamlit-removebg-preview.png" width="30px"> **Streamlit**: Para la creación de aplicaciones web interactivas y visualización de datos en tiempo real.
-
-Para ver y probar el modelo puede hacer clic [aqui](https://clasificacion-de-fracturas-oseas-a-partir-de-radiografias.streamlit.app/Modelo)
 
 # Cumplimiento Ético y Regulatorio
 
