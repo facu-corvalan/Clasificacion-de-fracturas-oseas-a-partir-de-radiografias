@@ -92,7 +92,7 @@ Utilices los siguientes enlaces para acceder al video del proyecto y la Aplicaci
         </div>
     </div>
     <div style="margin: 5px; text-align: center;">
-        <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
+        <a href="https://clasificacion-de-fracturas-oseas-a-partir-de-radiografias.streamlit.app/Modelo">
             <img src="img\herramienta.png" alt="Herramienta (El modelo de IA)" style="width: 35%;">
         </a>
         <div style="text-align: center;">
