@@ -85,7 +85,7 @@ Utilices los siguientes enlaces para acceder al video explicativo de nuestro pro
 <div style="display: flex; justify-content: start;">
     <div style="width: 40%; margin: 5px; text-align: center;">
         <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
-            <img src="img\video_youtube.png" alt="Video" style="width: 50%;">
+            <img src="img\video_youtube.png" alt="Video" style="width: 35%;">
         </a>
         <div style="text-align: center;">
           <p>Video</p>
@@ -93,7 +93,7 @@ Utilices los siguientes enlaces para acceder al video explicativo de nuestro pro
     </div>
     <div style="width: 40%; margin: 5px; text-align: center;">
         <a href="https://www.youtube.com/watch?v=XzLwn3GHHxg">
-            <img src="img\herramienta.png" alt="Herramienta (El modelo de IA)" style="width: 50%;">
+            <img src="img\herramienta.png" alt="Herramienta (El modelo de IA)" style="width: 35%;">
         </a>
         <div style="text-align: center;">
           <p>Aplicación</p>
