@@ -110,6 +110,8 @@ Para este proyecto utilizamos como fuente de datos:
 
 <img src="img\streamlit-removebg-preview.png" width="30px"> **Streamlit**: Para la creación de aplicaciones web interactivas y visualización de datos en tiempo real.
 
+Para ver y probar el modelo puede hacer clic [aqui](https://clasificacion-de-fracturas-oseas-a-partir-de-radiografias.streamlit.app/Modelo)
+
 # Cumplimiento Ético y Regulatorio
 
 - Garantizar que los datos están anonimizados.
