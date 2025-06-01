@@ -1,6 +1,6 @@
 # Entrenamiento del modelo
 
-Para el armado del siguiente modelo se utilizó un modelo de detccion de objetos preentrenado llamado Faster R-CNN inception ResNet V2 de https://github.com/tensorflow/models/tree/master.
+Para el armado del siguiente modelo se utilizó un modelo de detección de objetos preentrenado llamado Faster R-CNN inception ResNet V2 de https://github.com/tensorflow/models/tree/master.
 Antes de entrenarlo para nuestro fines, primero hace falta preparar los datos con los que va a entrenar nuestro modelo. Para ello, creamos una carpeta con todas la imagenes con las que vamos a entrenar el modelo.
 
 ## Etiquetado de imagenes
